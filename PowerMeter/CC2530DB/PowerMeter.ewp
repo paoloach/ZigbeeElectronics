@@ -286,29 +286,17 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>SECURE=1</state>
+          <state>SECURE=0</state>
+          <state>OSC32K_CRYSTAL_INSTALLED=FALSE</state>
+          <state>HAL_KEY=FALSE</state>
+          <state>HAL_BOARD_CC2530EB_REV17</state>
           <state>TC_LINKKEY_JOIN</state>
           <state>NV_INIT</state>
           <state>xNV_RESTORE</state>
-          <state>HOLD_AUTO_START</state>
-          <state>ZTOOL_P1</state>
-          <state>MT_TASK</state>
-          <state>MT_APP_FUNC</state>
-          <state>MT_SYS_FUNC</state>
-          <state>MT_ZDO_FUNC</state>
-          <state>LCD_SUPPORTED=DEBUG</state>
           <state>MULTICAST_ENABLED=FALSE</state>
           <state>ZCL_READ</state>
           <state>ZCL_WRITE</state>
           <state>ZCL_REPORT</state>
-          <state>ZCL_EZMODE</state>
-          <state>ZCL_BASIC</state>
-          <state>ZCL_IDENTIFY</state>
-          <state>ZCL_ON_OFF</state>
-          <state>ZCL_SCENES</state>
-          <state>ZCL_GROUPS</state>
-          <state>xZCL_LEVEL_CTRL</state>
-          <state>ZCL_DIAGNOSTIC</state>
           <state>FEATURE_SYSTEM_STATS</state>
         </option>
         <option>
@@ -470,35 +458,35 @@
         </option>
         <option>
           <name>Compiler Extra Options Edit</name>
-          <state>-f $PROJ_DIR$\..\..\..\Tools\CC2530DB\f8wRouter.cfg</state>
-          <state>-f $PROJ_DIR$\..\..\..\Tools\CC2530DB\f8wConfig.cfg</state>
-          <state>-f $PROJ_DIR$\..\..\..\Tools\CC2530DB\f8wZCL.cfg</state>
+          <state>-f $PROJ_DIR$\..\Tools\f8wRouter.cfg</state>
+          <state>-f $PROJ_DIR$\..\Tools\f8wConfig.cfg</state>
+          <state>-f $PROJ_DIR$\..\Tools\f8wZCL.cfg</state>
         </option>
         <option>
           <name>CCIncludePath2</name>
           <state>$PROJ_DIR$</state>
           <state>$PROJ_DIR$\..\Source</state>
-          <state>$PROJ_DIR$\..\..\Source</state>
-          <state>$PROJ_DIR$\..\..\..\ZMain\TI2530DB</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\hal\include</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\hal\target\CC2530EB</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\mac\include</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\mac\high_level</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\mac\low_level\srf04\single_chip</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\mt</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\osal\include</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\services\saddr</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\services\sdata</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\af</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\nwk</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\sapi</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\sec</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\sys</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\zcl</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\stack\zdo</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\zmac</state>
-          <state>$PROJ_DIR$\..\..\..\..\..\Components\zmac\f8w</state>
+          <state>$PROJ_DIR$\..\Source\ha</state>
+          <state>$PROJ_DIR$\..\Source\zmain</state>
+          <state>$PROJ_DIR$\..\Components\hal\include</state>
+          <state>$PROJ_DIR$\..\Components\hal\target\CC2530EB</state>
+          <state>$PROJ_DIR$\..\Components\mac\include</state>
+          <state>$PROJ_DIR$\..\Components\mac\high_level</state>
+          <state>$PROJ_DIR$\..\Components\mac\low_level\srf04</state>
+          <state>$PROJ_DIR$\..\Components\mac\low_level\srf04\single_chip</state>
+          <state>$PROJ_DIR$\..\Components\mt</state>
+          <state>$PROJ_DIR$\..\Components\osal\include</state>
+          <state>$PROJ_DIR$\..\Components\services\saddr</state>
+          <state>$PROJ_DIR$\..\Components\services\sdata</state>
+          <state>$PROJ_DIR$\..\Components\stack\af</state>
+          <state>$PROJ_DIR$\..\Components\stack\nwk</state>
+          <state>$PROJ_DIR$\..\Components\stack\sapi</state>
+          <state>$PROJ_DIR$\..\Components\stack\sec</state>
+          <state>$PROJ_DIR$\..\Components\stack\sys</state>
+          <state>$PROJ_DIR$\..\Components\stack\zcl</state>
+          <state>$PROJ_DIR$\..\Components\stack\zdo</state>
+          <state>$PROJ_DIR$\..\Components\zmac</state>
+          <state>$PROJ_DIR$\..\Components\zmac\f8w</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -765,7 +753,7 @@
         </option>
         <option>
           <name>OutputFile</name>
-          <state>SampleLight.d51</state>
+          <state>PowerMeter.d51</state>
         </option>
         <option>
           <name>OutputFormat</name>
@@ -831,7 +819,7 @@
         </option>
         <option>
           <name>XclFile</name>
-          <state>$PROJ_DIR$\..\..\..\Tools\CC2530DB\f8w2530.xcl</state>
+          <state>$PROJ_DIR$\..\Tools\f8w2530.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>
@@ -963,7 +951,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>SampleLight.sim</state>
+          <state>PowerMeter.sim</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1053,9 +1041,9 @@
         </option>
         <option>
           <name>Linker Extra Options Edit</name>
-          <state>-C $PROJ_DIR$\..\..\..\Libraries\TI2530DB\bin\Router-Pro.lib</state>
-          <state>-C $PROJ_DIR$\..\..\..\Libraries\TI2530DB\bin\Security.lib</state>
-          <state>-C $PROJ_DIR$\..\..\..\Libraries\TIMAC\bin\TIMAC-CC2530.lib</state>
+          <state>-C $PROJ_DIR$\..\Libraries\Router-Pro.lib</state>
+          <state>-C $PROJ_DIR$\..\Libraries\Security.lib</state>
+          <state>-C $PROJ_DIR$\..\Libraries\TIMAC-CC2530.lib</state>
         </option>
         <option>
           <name>CrcAlign</name>
@@ -2673,6 +2661,7 @@
     <file>
       <name>$PROJ_DIR$\..\Components\osal\common\OSAL_Timers.c</name>
       <excluded>
+        <configuration>RouterEB</configuration>
         <configuration>EndDeviceEB</configuration>
       </excluded>
       <configuration>
