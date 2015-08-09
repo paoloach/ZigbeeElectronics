@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V5.7.0.39                                          #
 #                                                                              #
-#           Link time     =  09/Aug/2015  08:59:27                             #
+#           Link time     =  09/Aug/2015  17:30:49                             #
 #           Target CPU    =  x51                                               #
 #           List file     =  C:\Users\paolo\Documents\progetti\ZigbeeElectroni #
 #                            cs\PowerMeter\CC2530DB\RouterEB\List\PowerMeter.m #
@@ -18935,63 +18935,63 @@ XDATA_Z
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           HWRevision              000080D1        lightAchdjianAttrs (PowerMeter_data)
+           HWRevision              000080D1        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 000080D0 - 000080D0 (0x1 bytes), align: 0
   Segment part 7.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           ZCLVersion              000080D0        lightAchdjianAttrs (PowerMeter_data)
+           ZCLVersion              000080D0        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 00008000 - 00008014 (0x15 bytes), align: 0
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           manufacturerName        00008000        lightAchdjianAttrs (PowerMeter_data)
+           manufacturerName        00008000        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 00008038 - 00008048 (0x11 bytes), align: 0
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           modelId                 00008038        lightAchdjianAttrs (PowerMeter_data)
+           modelId                 00008038        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 00008027 - 00008037 (0x11 bytes), align: 0
   Segment part 10.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           dateCode                00008027        lightAchdjianAttrs (PowerMeter_data)
+           dateCode                00008027        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 000080D2 - 000080D2 (0x1 bytes), align: 0
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           powerSource             000080D2        lightAchdjianAttrs (PowerMeter_data)
+           powerSource             000080D2        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_I
   Relative segment, address: XDATA 00000E69 - 00000E79 (0x11 bytes), align: 0
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           locationDescription     00000E69        lightAchdjianAttrs (PowerMeter_data)
+           locationDescription     00000E69        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_Z
   Relative segment, address: XDATA 0000053F - 0000053F (0x1 bytes), align: 0
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           physicalEnvironment     0000053F        lightAchdjianAttrs (PowerMeter_data)
+           physicalEnvironment     0000053F        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_I
   Relative segment, address: XDATA 00000E7A - 00000E7A (0x1 bytes), align: 0
   Segment part 15.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           deviceEnable            00000E7A        lightAchdjianAttrs (PowerMeter_data)
+           deviceEnable            00000E7A        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00022833 - 0002285C (0x2a bytes), align: 0
@@ -19089,7 +19089,7 @@ XDATA_Z
                                                    processIdentifyClusterServerCommands
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           identifyTime            00000540        lightAchdjianAttrs (PowerMeter_data)
+           identifyTime            00000540        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_Z
   Relative segment, address: XDATA 00000542 - 00000542 (0x1 bytes), align: 0
@@ -19173,14 +19173,14 @@ XDATA_Z
   Segment part 14.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           identifyInit::?relay    000014D6        temperatureHumiditySensor_Init (PowerMeter)
+           identifyInit::?relay    000014D6        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 000014DC - 000014E1 (0x6 bytes), align: 0
   Segment part 16.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           identifyLoop::?relay    000014DC        temperatureSensorEventLoop (PowerMeter)
+           identifyLoop::?relay    000014DC        powerMeterEventLoop (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 000014E2 - 000014E7 (0x6 bytes), align: 0
@@ -19188,7 +19188,7 @@ XDATA_Z
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            processIdentifyTimeChange::?relay
-                                   000014E2        lightAchdjianAttrs (PowerMeter_data)
+                                   000014E2        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 000014E8 - 000014ED (0x6 bytes), align: 0
@@ -19226,21 +19226,21 @@ XDATA_Z
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           mainVoltage             00000543        lightAchdjianAttrs (PowerMeter_data)
+           mainVoltage             00000543        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_Z
   Relative segment, address: XDATA 00000545 - 00000546 (0x2 bytes), align: 0
   Segment part 7.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           batteryVoltage          00000545        lightAchdjianAttrs (PowerMeter_data)
+           batteryVoltage          00000545        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_Z
   Relative segment, address: XDATA 00000547 - 00000547 (0x1 bytes), align: 0
   Segment part 8.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           batteryAlarmMask        00000547        lightAchdjianAttrs (PowerMeter_data)
+           batteryAlarmMask        00000547        powerMeterAttrs (PowerMeter_data)
 
     *************************************************************************
 
@@ -19374,7 +19374,7 @@ XDATA_Z
   Segment part 19.            Intra module refs:   readTemperatureLoop
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           temperatureValue        00000548        lightAchdjianAttrs (PowerMeter_data)
+           temperatureValue        00000548        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_Z
   Relative segment, address: XDATA 0000054A - 0000054B (0x2 bytes), align: 0
@@ -19395,21 +19395,21 @@ XDATA_I
   Segment part 22.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           minTemperatureValue     00000E7B        lightAchdjianAttrs (PowerMeter_data)
+           minTemperatureValue     00000E7B        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_I
   Relative segment, address: XDATA 00000E7D - 00000E7E (0x2 bytes), align: 0
   Segment part 24.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           maxTemperatureValue     00000E7D        lightAchdjianAttrs (PowerMeter_data)
+           maxTemperatureValue     00000E7D        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 XDATA_I
   Relative segment, address: XDATA 00000E7F - 00000E80 (0x2 bytes), align: 0
   Segment part 26.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           toleranceTemperature    00000E7F        lightAchdjianAttrs (PowerMeter_data)
+           toleranceTemperature    00000E7F        powerMeterAttrs (PowerMeter_data)
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00021376 - 0002137F (0xa bytes), align: 0
@@ -19536,7 +19536,7 @@ XDATA_ID
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            clusterTemperatureMeasurementeInit::?relay
-                                   00001F62        temperatureHumiditySensor_Init (PowerMeter)
+                                   00001F62        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 000014FA - 000014FF (0x6 bytes), align: 0
@@ -19544,7 +19544,7 @@ XDATA_ID
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            readTemperatureLoop::?relay
-                                   000014FA        temperatureSensorEventLoop (PowerMeter)
+                                   000014FA        powerMeterEventLoop (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 00001500 - 00001505 (0x6 bytes), align: 0
@@ -19688,9 +19688,9 @@ SFR_AN
                                                    osal_start_reload_timer (OSAL_Timers2)
                                                    osal_start_timerEx (OSAL_Timers2)
                                                    osal_stop_timerEx (OSAL_Timers2)
+                                                   powerMeter_Init (PowerMeter)
                                                    rxHaltCleanupFinalStep (mac_rx)
                                                    rxStartIsr (mac_rx)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            _A_IEN0                 000000A8 
@@ -20331,7 +20331,7 @@ XDATA_ID
                                                    macBuildBeacon (mac_beacon)
                                                    nwk_broadcastSend (nwk)
                                                    nwk_event_loop (nwk)
-                                                   temperatureSensorEventLoop (PowerMeter)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    zcl_event_loop (zcl)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
@@ -20390,7 +20390,7 @@ XDATA_ID
                                                    macEventLoop (mac_beacon)
                                                    macMainReset (mac_beacon)
                                                    nwk_event_loop (nwk)
-                                                   temperatureSensorEventLoop (PowerMeter)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    zcl_event_loop (zcl)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
@@ -20877,8 +20877,8 @@ XDATA_Z
                                                    nwk_data_ind_processing (nwk)
                                                    nwk_desc_list_free (nwk)
                                                    osal_msg_deallocate (OSAL)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    reflectTrack_RemoveEntry (AddrMgr)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    zclProcessInReadCmd (zcl)
                                                    zclProcessInWriteCmd (zcl)
                                                    zclProcessInWriteUndividedCmd (zcl)
@@ -22368,8 +22368,8 @@ XDATA_ID
   ======================
 XDATA_Z
   Relative segment, address: XDATA 00000606 - 00000606 (0x1 bytes), align: 0
-  Segment part 7.             Intra module refs:   temperatureHumiditySensor_Init
-                                                   temperatureSensorEventLoop
+  Segment part 7.             Intra module refs:   powerMeterEventLoop
+                                                   powerMeter_Init
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            temperatureSensorTaskID
@@ -22382,35 +22382,33 @@ XDATA_Z
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00021B9C - 00021BE0 (0x45 bytes), align: 0
-  Segment part 8.             Intra module refs:   temperatureHumiditySensor_Init::?relay
+  Segment part 8.             Intra module refs:   powerMeter_Init::?relay
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           temperatureHumiditySensor_Init
-                                   00021B9C 
+           powerMeter_Init         00021B9C 
                calls direct
                XSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00021BE1 - 00021BE5 (0x5 bytes), align: 0
   Segment part 10.            Intra module refs:   handleClusterCommands
-                                                   temperatureHumiditySensor_Init
+                                                   powerMeter_Init
            LOCAL                   ADDRESS         
            =====                   =======         
            ?Subroutine0            00021BE1 
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00021BE6 - 00021C7C (0x97 bytes), align: 0
-  Segment part 11.            Intra module refs:   temperatureSensorEventLoop::?relay
+  Segment part 11.            Intra module refs:   powerMeterEventLoop::?relay
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           temperatureSensorEventLoop
-                                   00021BE6 
+           powerMeterEventLoop     00021BE6 
                calls direct
                XSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <BANKED_CODE> 3 (was BANKED_CODE)
   Relative segment, address: CODE 00021C7D - 00021C8C (0x10 bytes), align: 0
-  Segment part 13.            Intra module refs:   temperatureSensorEventLoop
+  Segment part 13.            Intra module refs:   powerMeterEventLoop
            LOCAL                   ADDRESS         
            =====                   =======         
            ?Subroutine1            00021C7D 
@@ -22429,7 +22427,7 @@ XDATA_Z
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           temperatureHumiditySensor_Init::?relay
+           powerMeter_Init::?relay
                                    000016C2        osalInitTasks (OSAL_PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
@@ -22437,12 +22435,12 @@ XDATA_Z
   Segment part 12.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           temperatureSensorEventLoop::?relay
+           powerMeterEventLoop::?relay
                                    000016C8        tasksArr (OSAL_PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 000016CE - 000016D3 (0x6 bytes), align: 0
-  Segment part 15.            Intra module refs:   temperatureHumiditySensor_Init
+  Segment part 15.            Intra module refs:   powerMeter_Init
            LOCAL                   ADDRESS         
            =====                   =======         
            handleClusterCommands::?relay
@@ -22460,14 +22458,14 @@ XDATA_Z
   Segment part 6.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           lightAchdjianAttrs      000021B9        temperatureHumiditySensor_Init (PowerMeter)
+           powerMeterAttrs         000021B9        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
   Relative segment, address: CONST 00008051 - 00008058 (0x8 bytes), align: 0
   Segment part 7.             Intra module refs:   Segment part 10
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           zclSampleLight_InClusterList
+           powerMeter_InClusterList
                                    00008051 
     -------------------------------------------------------------------------
 <XDATA_ROM_C> 1 (was XDATA_ROM_C)
@@ -22475,7 +22473,7 @@ XDATA_Z
   Segment part 8.             Intra module refs:   Segment part 10
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           zclSampleLight_OutClusterList
+           powerMeter_OutClusterList
                                    000080CE 
     -------------------------------------------------------------------------
 XDATA_I
@@ -22483,20 +22481,19 @@ XDATA_I
   Segment part 9.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           zclSampleLight_SimpleDesc
-                                   00000E85        temperatureHumiditySensor_Init (PowerMeter)
+           powerMeter_SimpleDesc   00000E85        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 XDATA_ID
   Relative segment, address: CODE 000000C0 - 000000CB (0xc bytes), align: 0
-  Segment part 10.            Intra module refs:   zclSampleLight_SimpleDesc
+  Segment part 10.            Intra module refs:   powerMeter_SimpleDesc
     -------------------------------------------------------------------------
 <BANKED_CODE,XDATA_ROM_C_FLASH> 1 (was XDATA_ROM_C_FLASH)
   Relative segment, address: CODE 00008051 - 00008058 (0x8 bytes), align: 0
-  Segment part 11.            Intra module refs:   zclSampleLight_InClusterList
+  Segment part 11.            Intra module refs:   powerMeter_InClusterList
     -------------------------------------------------------------------------
 <BANKED_CODE,XDATA_ROM_C_FLASH> 1 (was XDATA_ROM_C_FLASH)
   Relative segment, address: CODE 000080CE - 000080CF (0x2 bytes), align: 0
-  Segment part 12.            Intra module refs:   zclSampleLight_OutClusterList
+  Segment part 12.            Intra module refs:   powerMeter_OutClusterList
 
     *************************************************************************
 
@@ -28238,6 +28235,8 @@ VREG
                                                    osal_start_reload_timer (OSAL_Timers2)
                                                    osal_start_timerEx (OSAL_Timers2)
                                                    osal_stop_timerEx (OSAL_Timers2)
+                                                   powerMeterEventLoop (PowerMeter)
+                                                   powerMeter_Init (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    reflectTrack_AddNewEntry (AddrMgr)
@@ -28252,8 +28251,6 @@ VREG
                                                    sAddrExtCpy (saddr)
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    txCsmaPrep (mac_tx)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
@@ -28767,6 +28764,8 @@ VREG
                                                    osal_start_reload_timer (OSAL_Timers2)
                                                    osal_start_timerEx (OSAL_Timers2)
                                                    osal_stop_timerEx (OSAL_Timers2)
+                                                   powerMeterEventLoop (PowerMeter)
+                                                   powerMeter_Init (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    reflectTrack_AddNewEntry (AddrMgr)
@@ -28778,8 +28777,6 @@ VREG
                                                    sAddrExtCmp (saddr)
                                                    sAddrExtCpy (saddr)
                                                    setItem (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    txCsmaPrep (mac_tx)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
@@ -29166,6 +29163,7 @@ VREG
                                                    osal_nv_write (OSAL_Nv)
                                                    osal_run_system (OSAL)
                                                    osal_start_reload_timer (OSAL_Timers2)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    reflectTrack_GetNewEntry (AddrMgr)
                                                    rtgFindRandomNeighbor (AddrMgr)
@@ -29174,7 +29172,6 @@ VREG
                                                    sAddrExtCpy (saddr)
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
                                                    writeWord (OSAL_Nv)
@@ -29492,6 +29489,7 @@ VREG
                                                    osal_nv_write (OSAL_Nv)
                                                    osal_run_system (OSAL)
                                                    osal_start_reload_timer (OSAL_Timers2)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    reflectTrack_GetNewEntry (AddrMgr)
                                                    rtgFindRandomNeighbor (AddrMgr)
@@ -29499,7 +29497,6 @@ VREG
                                                    rxStartIsr (mac_rx)
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
                                                    writeWord (OSAL_Nv)
@@ -38213,7 +38210,7 @@ XDATA_ID
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            zcl_registerForMsg::?relay
-                                   00001CE0        temperatureHumiditySensor_Init (PowerMeter)
+                                   00001CE0        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 00001CE6 - 00001CEB (0x6 bytes), align: 0
@@ -38229,7 +38226,7 @@ XDATA_ID
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            zcl_registerPlugin::?relay
-                                   00001CEC        temperatureHumiditySensor_Init (PowerMeter)
+                                   00001CEC        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 00001CF2 - 00001CF7 (0x6 bytes), align: 0
@@ -38237,7 +38234,7 @@ XDATA_ID
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
            zcl_registerAttrList::?relay
-                                   00001CF2        temperatureHumiditySensor_Init (PowerMeter)
+                                   00001CF2        powerMeter_Init (PowerMeter)
     -------------------------------------------------------------------------
 <BANKED_CODE,BANK_RELAYS..> 1 (was BANK_RELAYS)
   Relative segment, address: CODE 00001CF8 - 00001CFD (0x6 bytes), align: 0
@@ -38629,7 +38626,7 @@ XDATA_ID
   Segment part 11.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           zclHA_Init::?relay      00001DE8        temperatureHumiditySensor_Init (PowerMeter)
+           zclHA_Init::?relay      00001DE8        powerMeter_Init (PowerMeter)
 
     *************************************************************************
 
@@ -39569,9 +39566,9 @@ XDATA_Z
                                                    maxTemperatureValue (ClusterTemperatureMeasurement)
                                                    minTemperatureValue (ClusterTemperatureMeasurement)
                                                    nwk_beaconPayloadSize (nwk)
+                                                   powerMeter_SimpleDesc (PowerMeter_data)
                                                    registeredKeysTaskID (OnBoard)
                                                    toleranceTemperature (ClusterTemperatureMeasurement)
-                                                   zclSampleLight_SimpleDesc (PowerMeter_data)
                                                    zcl_RegisteredMsgTaskID (zcl)
                                                    zdoDiscCounter (ZDApp)
                                                    zdpExternalStateTaskID (ZDObject)
@@ -40508,6 +40505,8 @@ XDATA_Z
                                                    osal_start_system::?relay (OSAL)
                                                    osal_start_timerEx::?relay (OSAL_Timers2)
                                                    osal_stop_timerEx::?relay (OSAL_Timers2)
+                                                   powerMeterEventLoop::?relay (PowerMeter)
+                                                   powerMeter_Init::?relay (PowerMeter)
                                                    processBasicClusterCommands::?relay (ClusterBasic)
                                                    processIdentifyClusterClientCommands::?relay (ClusterIdentify)
                                                    processIdentifyClusterServerCommands::?relay (ClusterIdentify)
@@ -40549,8 +40548,6 @@ XDATA_Z
                                                    setChk::?relay (OSAL_Nv)
                                                    setItem::?relay (OSAL_Nv)
                                                    setPageUse::?relay (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init::?relay (PowerMeter)
-                                                   temperatureSensorEventLoop::?relay (PowerMeter)
                                                    txComplete::?relay (mac_tx)
                                                    txCsmaGo::?relay (mac_tx)
                                                    txCsmaPrep::?relay (mac_tx)
@@ -41785,6 +41782,7 @@ XDATA_Z
                                                    osal_nv_write (OSAL_Nv)
                                                    osal_start_reload_timer (OSAL_Timers2)
                                                    osal_start_timerEx (OSAL_Timers2)
+                                                   powerMeter_Init (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    processIdentifyTimeChange (ClusterIdentify)
                                                    readSyncronus (ClusterTemperatureMeasurement)
@@ -41794,7 +41792,6 @@ XDATA_Z
                                                    sAddrExtCpy (saddr)
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
                                                    xferBuf (OSAL_Nv)
@@ -42830,6 +42827,8 @@ XDATA_Z
                                                    osal_start_reload_timer (OSAL_Timers2)
                                                    osal_start_timerEx (OSAL_Timers2)
                                                    osal_stop_timerEx (OSAL_Timers2)
+                                                   powerMeterEventLoop (PowerMeter)
+                                                   powerMeter_Init (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    reflectTrack_AddNewEntry (AddrMgr)
@@ -42851,8 +42850,6 @@ XDATA_Z
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
                                                    setPageUse (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    txComplete (mac_tx)
                                                    txCsmaPrep (mac_tx)
                                                    writeBuf (OSAL_Nv)
@@ -43079,12 +43076,12 @@ XDATA_Z
                                                    osal_nv_write (OSAL_Nv)
                                                    osal_pwrmgr_task_state (OSAL_PwrMgr)
                                                    osal_run_system (OSAL)
+                                                   powerMeterEventLoop (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    readTemperatureLoop (ClusterTemperatureMeasurement)
                                                    rxStartIsr (mac_rx)
                                                    sAddrExtCmp (saddr)
                                                    sAddrExtCpy (saddr)
-                                                   temperatureSensorEventLoop (PowerMeter)
                                                    writeItem (OSAL_Nv)
                                                    zclHA_Init (zcl_ha)
                                                    zclParseInConfigReportRspCmd (zcl)
@@ -43306,10 +43303,10 @@ XDATA_Z
                                                    osal_nv_item_len (OSAL_Nv)
                                                    osal_nv_read (OSAL_Nv)
                                                    osal_nv_write (OSAL_Nv)
+                                                   powerMeter_Init (PowerMeter)
                                                    processIdentifyClusterServerCommands (ClusterIdentify)
                                                    setChk (OSAL_Nv)
                                                    setItem (OSAL_Nv)
-                                                   temperatureHumiditySensor_Init (PowerMeter)
                                                    writeBuf (OSAL_Nv)
                                                    writeItem (OSAL_Nv)
                                                    writeWord (OSAL_Nv)

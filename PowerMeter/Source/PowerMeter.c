@@ -118,7 +118,7 @@ static ZStatus_t handleClusterCommands( zclIncoming_t *pInMsg );
  *
  * @return      none
  */
-void temperatureHumiditySensor_Init( byte task_id ){
+void powerMeter_Init( byte task_id ){
   temperatureSensorTaskID = task_id;
 
   // Set destination address to indirect
@@ -127,7 +127,7 @@ void temperatureHumiditySensor_Init( byte task_id ){
   //zclSampleLight_DstAddr.addr.shortAddr = 0;
 
   // This app is part of the Home Automation Profile
-  zclHA_Init( &zclSampleLight_SimpleDesc );
+  zclHA_Init( &powerMeter_SimpleDesc );
 
   // Register the ZCL General Cluster Library callback functions
 //  zclGeneral_RegisterCmdCallbacks(ENDPOINT, &zclSampleLight_CmdCallbacks );
@@ -135,7 +135,7 @@ void temperatureHumiditySensor_Init( byte task_id ){
   
 
   	// Register the application's attribute list
-  	zcl_registerAttrList(ENDPOINT, lightAchdjianAttrs );
+  	zcl_registerAttrList(ENDPOINT, powerMeterAttrs );
 
   	// Register the Application to receive the unprocessed Foundation command/response messages
   	zcl_registerForMsg( temperatureSensorTaskID );
@@ -155,7 +155,7 @@ void temperatureHumiditySensor_Init( byte task_id ){
  *
  * @return      none
  */
-uint16 temperatureSensorEventLoop( uint8 task_id, uint16 events ){
+uint16 powerMeterEventLoop( uint8 task_id, uint16 events ){
 	afIncomingMSGPacket_t *MSGpkt;
   
 	  (void)task_id;  // Intentionally unreferenced parameter

@@ -82,7 +82,7 @@ const pTaskEventHandlerFn tasksArr[] = {
   ZDNwkMgr_event_loop,
 #endif
   zcl_event_loop,
-  temperatureSensorEventLoop
+  powerMeterEventLoop
 };
 
 const uint8 tasksCnt = sizeof( tasksArr ) / sizeof( tasksArr[0] );
@@ -120,7 +120,7 @@ void osalInitTasks( void )
   ZDNwkMgr_Init( taskID++ );
 #endif
   zcl_Init( taskID++ );
-  temperatureHumiditySensor_Init( taskID );
+  powerMeter_Init( taskID );
 }
 
 /*********************************************************************

@@ -71,11 +71,9 @@ extern "C"
 /*********************************************************************
  * VARIABLES
  */
-extern SimpleDescriptionFormat_t zclSampleLight_SimpleDesc;
+extern SimpleDescriptionFormat_t powerMeter_SimpleDesc;
 
-extern CONST zclAttrRec_t lightAchdjianAttrs[];
-
-extern uint16 zclSampleLight_IdentifyTime;
+extern CONST zclAttrRec_t powerMeterAttrs[];
 
 /*********************************************************************
  * FUNCTIONS
@@ -84,12 +82,12 @@ extern uint16 zclSampleLight_IdentifyTime;
  /*
   * Initialization for the task
   */
-extern void temperatureHumiditySensor_Init( byte task_id );
+extern void powerMeter_Init( byte task_id );
 
 /*
  *  Event Process for the task
  */
-extern UINT16 temperatureSensorEventLoop( byte task_id, UINT16 events );
+extern UINT16 powerMeterEventLoop( byte task_id, UINT16 events );
 
 
 /*********************************************************************
