@@ -1,18 +1,20 @@
-
 /**************************************************************************************************
 
  DESCRIPTION:
-  Power Cluster
+  --
 
- CREATED: 12/11/2014, by Paolo Achdjian
+ CREATED: 09/08/2015, by Paolo Achdjian
 
- FILE: ClusterPower.c
+ FILE: uint48.h
 
 ***************************************************************************************************/
+#ifndef __UINT48__H__
+#define __UINT48__H__
 
-#include "ClusterPower.h"
+struct uint48_t {
+	uint8 data[6];
+};
 
+typedef struct uint48_t uint48;
 
-uint16 mainVoltage=0;
-uint16 batteryVoltage=0;
-uint8  batteryAlarmMask=0;
+#endif

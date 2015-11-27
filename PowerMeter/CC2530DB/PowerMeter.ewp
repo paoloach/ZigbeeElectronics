@@ -2212,6 +2212,9 @@
           <name>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.h</name>
         </file>
         <file>
+          <name>$PROJ_DIR$\..\Source\clusters\ClusterMetering.h</name>
+        </file>
+        <file>
           <name>$PROJ_DIR$\..\Source\clusters\ClusterOSALEvents.h</name>
         </file>
         <file>
@@ -2219,6 +2222,9 @@
         </file>
         <file>
           <name>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\..\Source\clusters\uint48.h</name>
         </file>
       </group>
       <file>
@@ -2228,7 +2234,7 @@
         <name>$PROJ_DIR$\..\Source\clusters\ClusterIdentify.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\Source\clusters\ClusterPower.c</name>
+        <name>$PROJ_DIR$\..\Source\clusters\ClusterMetering.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\Source\clusters\ClusterTemperatureMeasurement.c</name>

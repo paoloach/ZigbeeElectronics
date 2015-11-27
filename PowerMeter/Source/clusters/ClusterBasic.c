@@ -12,9 +12,9 @@
 const uint8 HWRevision = 1;
 const uint8 ZCLVersion = 1;
 const uint8 manufacturerName[] = { 20, 'A','c','h','d','j','i','a','n',' ','T','e','s','t',' ',' ',' ',' ',' ',' ',' ' };
-const uint8 modelId[] = { 16, 'T','e','m','p','e','r','a','t','u','r','e',' ','S','e','n','s' };
-const uint8 dateCode[] = { 16, '2','0','1','4','1','1','1','2',' ',' ',' ',' ',' ',' ',' ',' ' };
-const uint8 powerSource = POWER_SOURCE_BATTERY;
+const uint8 modelId[] = { 16, 'P','o','w','e','r','M','e','t','e','r',' ',' ',' ',' ',' ',' ' };
+const uint8 dateCode[] = { 16, '2','0','1','5','0','8','0','9',' ',' ',' ',' ',' ',' ',' ',' ' };
+const uint8 powerSource = POWER_SOURCE_DC;
 
 uint8 locationDescription[17] = { 16, ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ' };
 uint8 physicalEnvironment = 0;
